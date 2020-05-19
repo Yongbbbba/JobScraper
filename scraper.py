@@ -43,3 +43,4 @@ def get_jobs(word):
     last_page = get_last_page(url)
     jobs = extract_jobs(last_page, url)
     return jobs
+
